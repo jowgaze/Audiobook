@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, black, #323232);
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.container-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    border-width: 1px;
+    width: 250px;
+    padding: 25px;
+}
+
+.book-img {
+    padding: 5px;
+}
+
+.book-img img {
+    width: 250px;
+}
+
+.book-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.book-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.book-button button {
+    margin-inline: 5px;
+    font-size: 40px;
+    background-color: transparent;
+    color: inherit;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#book-play-btn {
+    font-size: 60px;
+}
+
+button:hover {
+    scale: 1.1;
+}
